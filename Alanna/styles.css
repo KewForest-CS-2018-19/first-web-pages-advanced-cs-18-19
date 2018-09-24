@@ -1,0 +1,67 @@
+html{
+  font-size:1em;
+}
+body{
+  color:#FFFFFF;
+  background-color: #333333;
+  font-family:  Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  margin:50px;
+  letter-spacing: .1em;
+
+
+}
+li.headshot{
+  border-color: blackDaniel Sun;
+}
+h1,h2{
+  font-family: times,sans-serif;
+  color: #cf20b8;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+nav ul li{
+  margin:20px;
+  font-size: 1.5em;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+#main-nav{
+  color:white;
+}
+
+li.headshot{
+  border-color:#cf20b8;
+  border-width: 5px;
+  border-style: solid;
+  padding: 50px;
+  margin:20px;
+}
+.first-bullet{
+  color:red;
+  max-width:500px;
+}
+.copy{
+  text-align: justify;
+  text-indent: 2em;
+}
