@@ -73,7 +73,7 @@ nav ul{
 }
 
 li.headshot{
-  width: 18%;
+  width: 15%;
   height: 88px;
   margin-right: 1px;
 
@@ -90,6 +90,10 @@ li.headshot img{
  -webkit-transform: translate(-50%,-50%);
      -ms-transform: translate(-50%,-50%);
          transform: translate(-50%,-50%);
+}
+li.headshot img.portrait {
+  width: 100%;
+  height: auto;
 }
 .first-bullet{
   color:red;
