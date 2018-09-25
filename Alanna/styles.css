@@ -73,11 +73,23 @@ nav ul{
 }
 
 li.headshot{
-  border-color:#cf20b8;
-  border-width: 5px;
-  border-style: solid;
-  padding: 50px;
-  margin:20px;
+  width: 18%;
+  height: 88px;
+  margin-right: 1px;
+
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+li.headshot img{
+  position: absolute;
+ left: 50%;
+ top: 50%;
+ height: 100%;
+ width: auto;
+ -webkit-transform: translate(-50%,-50%);
+     -ms-transform: translate(-50%,-50%);
+         transform: translate(-50%,-50%);
 }
 .first-bullet{
   color:red;
