@@ -20,10 +20,18 @@ h1,h2{
   font-size: 1.5em;
   text-transform: uppercase;
 }
+nav ul {
 
+}
 nav ul li{
-  margin:20px;
-  font-size: 1.5em;
+  margin: 1em;
+font-size: 1.5em;
+display: inline-block;
+padding: .7em;
+border-style: solid;
+font-size: .8em;
+background-color: #af6bee;
+border-radius: .6em;
 }
 
 /* unvisited link */
@@ -44,6 +52,20 @@ a:hover {
 /* selected link */
 a:active {
     color: blue;
+}
+nav ul li a, nav ul li a:visited{
+  text-decoration: none;
+  font-weight: bolder;
+  color:#fff;
+}
+nav ul li:hover{
+  background-color: #ae8fae;
+}
+nav ul li:active{
+  background-color: #291b37;
+}
+nav ul{
+  /*background-color: #fff;*/
 }
 
 #main-nav{
