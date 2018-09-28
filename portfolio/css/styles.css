@@ -1,1 +1,14 @@
 /* styles */
+nav ul {
+
+}
+nav ul li{
+  margin: 1em;
+font-size: 1.5em;
+display: inline-block;
+padding: .7em;
+border-style: solid;
+font-size: .8em;
+background-color: #7fffd4;
+border-radius: .6em;
+}
